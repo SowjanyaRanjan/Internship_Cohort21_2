@@ -1,5 +1,4 @@
 ## Forest Fire Risk Prediction using Machine Learning
-
 Project Overview
 
 Forest fires are one of the major environmental hazards that cause severe damage to forests, wildlife, and human settlements. Early prediction of forest fire risk can help authorities take preventive actions and reduce disaster impact.
