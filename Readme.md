@@ -24,7 +24,7 @@ BUI | Build Up Index
 FWI | Fire Weather Index 
 
 
-## Project Workflow
+**Project Workflow**
 
 1. **Data Collection** – Dataset obtained from Kaggle
 2. **Data Cleaning & Preprocessing** – Handling missing values, removing unnecessary columns, feature selection
@@ -33,7 +33,7 @@ FWI | Fire Weather Index
 5. **Model Training** – Decision Tree Classifier, Random Forest Classifier
 6. **Model Evaluation** – Accuracy, Precision, Recall, F1 Score, Confusion Matrix, ROC Curve, Cross Validation
 
-## Machine Learning Models
+**Machine Learning Models**
 
 **Decision Tree Classifier**
 The Decision Tree algorithm splits the dataset into branches based on feature conditions and predicts the class label.
@@ -57,7 +57,7 @@ Cross Validation Accuracy: **95.49% ± 4.16%**
 Random Forest significantly improves the prediction of Severe fire risk cases and reduces misclassification errors.
 
 
-## Model Comparison
+**Model Comparison**
 
 Model | Accuracy | CV Accuracy | Severe Class Detection 
 
@@ -66,18 +66,18 @@ Random Forest = Accuracy 93.88% ,CV Acuuracy 95.49% ,Severe Class Detection Exce
 
 **Random Forest performs better** due to ensemble learning and reduced overfitting.
 
-##  Key Insights
+**Key Insights**
 
 **ISI** and **FFMC** are the most important features for predicting forest fire risk.
 These two features contribute to about **50% of the predictive power** in the model.
 Random Forest shows more **stable cross-validation results**, meaning it generalizes better on unseen data.
 
-##  Technologies Used
+**Technologies Used**
 
 **Programming Language:** Python
 **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
 **Tools:** Jupyter Notebook, VS Code, GitHub
 
-## Conclusion
+**Conclusion**
 
 This project demonstrates how Machine Learning can help predict forest fire risk levels using environmental data. Among the tested models, **Random Forest provided the best performance and reliability**, making it suitable for real-world deployment in fire risk monitoring systems.
