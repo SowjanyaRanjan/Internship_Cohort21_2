@@ -43,7 +43,7 @@ Accuracy: **87.76%**
 F1 Score: **87.76%**
 Cross Validation Accuracy: **89.75% ± 7.82%**
 
-> The model performs well for Low risk predictions, but struggles to detect Severe fire cases accurately.
+The model performs well for Low risk predictions, but struggles to detect Severe fire cases accurately.
 
 **Random Forest Classifier**
 
@@ -54,9 +54,8 @@ Accuracy: **93.88%**
 F1 Score: **93.94%**
 Cross Validation Accuracy: **95.49% ± 4.16%**
 
-> Random Forest significantly improves the prediction of Severe fire risk cases and reduces misclassification errors.
+Random Forest significantly improves the prediction of Severe fire risk cases and reduces misclassification errors.
 
----
 
 ## Model Comparison
 
@@ -69,16 +68,16 @@ Random Forest = Accuracy 93.88% ,CV Acuuracy 95.49% ,Severe Class Detection Exce
 
 ##  Key Insights
 
-- **ISI** and **FFMC** are the most important features for predicting forest fire risk.
-- These two features contribute to about **50% of the predictive power** in the model.
-- Random Forest shows more **stable cross-validation results**, meaning it generalizes better on unseen data.
+**ISI** and **FFMC** are the most important features for predicting forest fire risk.
+These two features contribute to about **50% of the predictive power** in the model.
+Random Forest shows more **stable cross-validation results**, meaning it generalizes better on unseen data.
 
 ##  Technologies Used
 
-- **Programming Language:** Python
-- **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
-- **Tools:** Jupyter Notebook, VS Code, GitHub
+**Programming Language:** Python
+**Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+**Tools:** Jupyter Notebook, VS Code, GitHub
 
-Conclusion
+## Conclusion
 
 This project demonstrates how Machine Learning can help predict forest fire risk levels using environmental data. Among the tested models, **Random Forest provided the best performance and reliability**, making it suitable for real-world deployment in fire risk monitoring systems.
