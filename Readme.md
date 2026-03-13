@@ -33,7 +33,6 @@ FWI | Fire Weather Index
 5. **Model Training** – Decision Tree Classifier, Random Forest Classifier
 6. **Model Evaluation** – Accuracy, Precision, Recall, F1 Score, Confusion Matrix, ROC Curve, Cross Validation
 
-
 ## Machine Learning Models
 
 **Decision Tree Classifier**
@@ -45,8 +44,6 @@ F1 Score: **87.76%**
 Cross Validation Accuracy: **89.75% ± 7.82%**
 
 > The model performs well for Low risk predictions, but struggles to detect Severe fire cases accurately.
-
-
 
 **Random Forest Classifier**
 
@@ -65,12 +62,10 @@ Cross Validation Accuracy: **95.49% ± 4.16%**
 
 Model | Accuracy | CV Accuracy | Severe Class Detection 
 
-Decision Tree | 87.76% | 89.75% | Moderate 
-Random Forest | 93.88% | 95.49% | Excellent 
+Decision Tree = Accuracy 87.76% , CV Acuuracy 89.75% , Severe Class Detection Moderate.
+Random Forest = Accuracy 93.88% ,CV Acuuracy 95.49% ,Severe Class Detection Excellent.
 
 **Random Forest performs better** due to ensemble learning and reduced overfitting.
-
----
 
 ##  Key Insights
 
@@ -78,31 +73,11 @@ Random Forest | 93.88% | 95.49% | Excellent
 - These two features contribute to about **50% of the predictive power** in the model.
 - Random Forest shows more **stable cross-validation results**, meaning it generalizes better on unseen data.
 
----
-
 ##  Technologies Used
 
 - **Programming Language:** Python
 - **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
 - **Tools:** Jupyter Notebook, VS Code, GitHub
-
-
-##  Project Structure
-
-Forest-Fire-Risk-Prediction
-│
-├── dataset
-│   └── algerian_forest_fire_with_features.csv
-│
-├── notebooks
-│   ├── Forest_Fire_Risk_DT.ipynb
-│   └── Forest_Fire_Risk_RF.ipynb
-│
-├── reports
-│   ├── Decision_Tree_Evaluation_Report.pdf
-│   └── Random_Forest_Evaluation_Report.pdf
-│
-└── README.md
 
 Conclusion
 
