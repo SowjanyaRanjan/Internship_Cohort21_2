@@ -8,10 +8,10 @@ This project uses **Machine Learning algorithms** to predict the forest fire ris
 
 The project compares the performance of **Decision Tree** and **Random Forest** classifiers to identify the most accurate model for predicting forest fire risk
 
-## Dataset
+Dataset
 The dataset used is the **Algerian Forest Fire Dataset**, which contains weather and Fire Weather Index (FWI) related features.
 
-## Feature | Description 
+Feature | Description 
 
 Temperature | Ambient temperature 
 RH | Relative Humidity
